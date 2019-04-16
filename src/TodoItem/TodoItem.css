@@ -1,0 +1,34 @@
+.todo-item {
+    padding:1rem;
+    display:flex;
+    align-items: center;
+    cursor:pointer;
+}
+.todo-item .tick {
+    margin-right: 1rem;
+}
+.todo-item .text{
+    flex: 1;
+    word-break: break-all;
+}
+.todo-item .text:done {
+    text-decoration: line-through;
+}
+.todo-item .delete {
+    margin-left:1rem;
+    color: #FF8080;
+    font-size: 0.8rem;
+}
+.todo-item .delete:hover{
+    color : #FFC0C0;
+    text-decoration: underline;
+}
+.todo-item:nth-child(odd){
+    background: #E3E3E3;
+}
+.todo-tiem.hover {
+    background: #DFDFDF;
+}
+.todo-item + .todo-item{
+    border-top: 1px solid #E3E3E3;
+}

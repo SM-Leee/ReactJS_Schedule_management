@@ -1,0 +1,41 @@
+.todo-input{
+    border-top:1px solid #E3E3E3;
+    border-bottom: 1px solid #E3E3E3;
+    display: flex;
+    padding: 1rem;
+}
+.todo-input input {
+    flex:1;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #D7D7D7;
+}
+.todo-input input:focus{
+    border-bottom: 1px solid #CFCFCF;
+}
+
+.todo-input .add-button {
+    width: 5rem;
+    height: 2rem;
+    margin-left: 1rem;
+    border: 1px solid #80FFC0;
+    color: #80FFC0;
+    font-weight: 500;
+    font-size: 1.1rem;
+    display: flex;
+    /* 내용을 가운데에 정렬 시킵니다. */
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select:none;
+}
+
+.todo-input .add-button:hover {
+    background : #80FFC0;
+    color:white;
+}
+.todo-input .add-button:active {
+    background: #00FF00;
+}
