@@ -8,7 +8,7 @@ const PageTemplate = ({children})=>{
         return (
             <div className={cx('page-template')}>
                 <h1>일정관리</h1>
-                <div className={cx('page-template')}>
+                <div className={cx('content')}>
                     {children}
                 </div>
             </div>
